@@ -1,3 +1,18 @@
-const h2 = document.createElement('h2');
-h2.textContent = 'This content added by JavaScript';
-document.querySelector('body').appendChild(h2);
+/* when user clicks button, toggle between hiding and showing the dropdown content */
+
+function dropdown() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onClick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        for (var i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+}

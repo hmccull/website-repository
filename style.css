@@ -1,3 +1,142 @@
 body {
-    background: #d7d7d7;
+    background-color: #F4F1F1;
 }
+
+/* Main nav div to position the dropdown content */
+.dropdown {
+    float: right;
+    margin-right: 7%;
+    margin-top: 5%;
+    position: relative;
+    display: inline-block;
+}
+
+/* Main nav dropdown button */
+.dropbtn {
+    border: none;
+    background-color: #F4F1F1;
+    color: #36454F;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+/* Man nav dropdown button hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    color: #fff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown content hidden by degfault */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: .8px;
+    margin-top: 10px;
+    margin-right: 5%;
+    min-width: 200px;
+    overflow: auto;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #36454F;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    color: #fff;
+}
+
+.show {
+    display: block;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: .8px;
+    text-align: center;
+}
+
+/* position cover image */
+#hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    clear: right;
+}
+
+/* position page break line */
+.break {
+    margin: auto;
+    margin-left: -100px;
+    padding-bottom: 50px;;
+}
+
+/* apply mods to welcome paragraph */
+.paragraph {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: .5px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* div class to position welcome paragraph */
+.welcome {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 50px;
+    width: 60%;
+}
+
+/* div to position resume */
+div#resume {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    clear: right;
+}
+
+#resumeImg {
+    width: 700px;
+    height: 900px;
+    border-radius: 10px;
+}
+
+#btmHero {
+    display: block;
+    float: left;
+}
+
+#btmHero img {
+    width: 400px;
+    height: 200px;
+}
+
+.profile {
+    padding: 40px;
+    border-radius: 300px;
+    width: 450px;
+    height: 500px;
+}
+
+/* div class to position about paragraph */
+.about {
+    text-align: center;
+    margin: auto;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    width: 60%;
+}
+
