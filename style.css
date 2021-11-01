@@ -59,10 +59,12 @@ body {
     display: block;
 }
 
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: .8px;
-    text-align: center;
+.heading {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+    float: left;
+    margin-left: 3%;
 }
 
 /* position cover image */
@@ -70,6 +72,7 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 150px;
     width: 65%;
     clear: right;
 }
@@ -79,22 +82,6 @@ h1 {
     margin: auto;
     margin-left: -100px;
     padding-bottom: 50px;;
-}
-
-/* apply mods to welcome paragraph */
-.paragraph {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: .5px;
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-/* div class to position welcome paragraph */
-.welcome {
-    text-align: center;
-    margin: auto;
-    padding-bottom: 50px;
-    width: 60%;
 }
 
 /* div to position resume */
@@ -140,3 +127,38 @@ div#resume {
     width: 60%;
 }
 
+/* div with class to position left images on main project page */
+.left {
+    float: left;
+    clear: both;
+}
+
+/* div with class to position middle images on main project page */
+.middle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    clear: both;
+}
+
+/* div with class to position right images on main project page */
+.right {
+    float: right;
+    clear: both;
+    margin-right: 5%;
+}
+
+/* div with class to adjust project images on main project page */
+.projects {
+    width: 700px;
+    height: 550px;
+    padding: 50px;
+}
+
+/* div with class to adjust logo images on main project page */
+.logoProj {
+    width: 550px;
+    height: 550px;
+    margin-right: 50px;
+    padding: 50px;
+}
